@@ -1,6 +1,6 @@
 window.onload = function() {
-    var titulo = document.getElementsByTagName("title")[0].textContent;
-    console.log(titulo.toUpperCase());
+    var titulo = document.title
+    console.log("El titulo es: "+titulo.toUpperCase());
   
     document.getElementById('nombre').value = "Agustin"; 
     document.getElementById('apellido').value = "Luz"; 
@@ -17,3 +17,5 @@ window.onload = function() {
     var apellido = document.querySelector('label[for="apellido"]');
     apellido.textContent = "Apellidos:";
 };
+
+    
