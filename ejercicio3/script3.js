@@ -8,7 +8,7 @@ window.onload = function() {
     var nombre = document.getElementById('nombre').value;
     var apellido = document.getElementById('apellido').value;
     var saludo = document.getElementById('saludo');
-    saludo.textContent = `Hola ${nombre} ${apellido}.`;
+    saludo.textContent = 'Hola '+nombre+' '+apellido;
   
     var parrafo = document.createElement('p');
     parrafo.textContent = "¿Qué tal estás?";
